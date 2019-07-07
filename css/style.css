@@ -1,0 +1,88 @@
+.nav .logo{
+    padding:2px 30px;
+    margin-left:20px;
+}
+.nav .logo img{
+    margin: 20px;
+    height:30px;
+    
+}
+.nav{
+    background-color: rgb(26, 26, 26);
+    /* padding-top: 20px; */
+}
+.nav .menu{
+    margin: 20px 0px;
+    
+    
+}
+.nav  a{
+    color:white;
+    font-family: 'Raleway' ; 
+    padding:30px 10px;
+    margin:20px 0px;
+    font-size: 15px;
+    transition: font-size 1s; 
+
+}
+.nav a:hover{
+    text-decoration:none;
+    color:white;
+    font-size: 18px;
+}
+
+.nav button{
+    padding:10px;
+    color:white;
+    float: right;
+    background-color: #51d0de;
+    border-radius: 0px;
+    margin:10px 10px;
+    transition: background-color 1s, color 1s;    
+}
+.nav button:hover{
+    background-color: #bf4aa8;
+    color:black;
+    
+}
+.main{
+    background-color: #151515;
+}
+.main .row{
+    padding:0px 140px;
+}
+.main .col-md-6{
+    background-color: rgb(238, 235, 235);
+    margin:50px auto;
+    padding:30px;
+    padding-bottom:100px;
+}
+.main .col-md-6 h1{
+    font-size:14px;
+    background-color: #353535;
+    color:white;
+    padding:5px;
+    padding-right:80px;
+}
+.main .col-md-6 input{
+    padding:10px 230px 10px 30px;
+    margin:10px auto;
+}
+.main button{
+    background-color: #51d0de;
+    border-radius: 0px;
+    display: block;
+    padding:10px 58px;
+    margin:20px auto;
+    color:white;
+}
+.main .tel{
+    padding:10px;
+    background-color:white;
+}
+footer{
+    background: #353535;
+    color:gray;
+    font-size:9px;
+    padding:20px;
+}
