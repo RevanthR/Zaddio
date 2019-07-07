@@ -146,3 +146,55 @@ footer{
     height:155px;
     padding:10px;
 }
+
+/* Model Page Css */
+.model, .slider{
+    background-color: #151515;
+
+}
+.carousel-control-next {
+    filter: invert(100%);
+}
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.carousel-indicators{
+    filter: invert(100%);
+} 
+
+.model img{
+    height: 500px;
+    padding:10px;
+}
+.model h1{
+    font-size: 20px;
+    color:white;
+
+}
+.model p{
+    color:white;
+    font-size: 12px;
+    margin-right:25px;
+    text-align: justify;
+    /* padding:20px; */
+}
+.model .row{
+    padding:20px;    
+}
+
+.model .col-4{
+    color:#51d0de;
+    padding: 10px 0px;
+    font-size: 12px;
+
+}
+
+.slider h1{
+    font-size: 20px;    
+    color:white;
+    padding:30px;
+}
+.model-fill{
+    background-color: #151515;
+    padding:500px;
+}
