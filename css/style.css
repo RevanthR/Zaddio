@@ -298,20 +298,20 @@ footer{
     padding:5px;
     margin:10px;
 }
-.switch {
+.model-city .switch {
     position: relative;
     display: inline-block;
     width: 40px;
     height: 20px;
   }
   
-  .switch input { 
+.model-city .switch input { 
     opacity: 0;
     width: 0;
     height: 0;
   }
   
-  .slider {
+ .model-city .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -323,7 +323,7 @@ footer{
     transition: .4s;
   }
   
-  .slider:before {
+.model-city .slider:before {
     position: absolute;
     content: "";
     height: 15px;
@@ -335,32 +335,34 @@ footer{
     transition: .4s;
   }
   
-  input:checked + .slider {
+.model-city input:checked + .slider {
     background-color: green;
   }
   
-  input:focus + .slider {
+.model-city input:focus + .slider {
     box-shadow: 0 0 1px green;
   }
   
-  input:checked + .slider:before {
+.model-city input:checked + .slider:before {
     -webkit-transform: translateX(20px);
     -ms-transform: translateX(20px);
     transform: translateX(20px);
   }
   
   /* Rounded sliders */
-  .slider.round {
+.model-city .slider.round {
     border-radius: 34px;
   }
   
-  .slider.round:before {
+.model-city .slider.round:before {
     border-radius: 50%;
   }
-  .model-city button{
+ .model-city button{
       border-radius:0px;
       padding:10px 50px;
       margin:50px auto;
       display: block;
       background-color: #51d0de;
   }
+
+  
