@@ -369,5 +369,8 @@ footer{
       display: block;
       background-color: #51d0de;
   }
-
+.model-city p{
+    float:center;
+    display: block;
+}
   
